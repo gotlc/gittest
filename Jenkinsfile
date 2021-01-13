@@ -8,7 +8,7 @@ pipeline {
     stages{
     stage("Bulid"){
         steps{
-            echo "heloo"
+            sh "printenv"
          }
         
     }
