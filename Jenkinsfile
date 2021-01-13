@@ -3,6 +3,7 @@ pipeline {
     
     
     tools{
+        jdk "jdk8"
         maven 'mvn-3.5.4'
     }
     
