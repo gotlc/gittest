@@ -8,7 +8,7 @@ pipeline {
     stages{
     stage("Bulid"){
         steps{
-            ehco "heloo"
+            echo "heloo"
          }
         
     }
